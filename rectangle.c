@@ -120,7 +120,7 @@ rectangle_t intersection(rectangle_t r1, rectangle_t r2) {
                 r1.x = edge.coordinate;
                 r1.y = r2.y;
                 r1.width = edge.metric;
-                                                                                    66,1          30%
+                
             }
             case 3: {
                 edge = intersection_1d(r2.x, r1.x, r2.width, r1.width);
